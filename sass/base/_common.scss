@@ -1,0 +1,22 @@
+
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding: 94px 0;
+}
+
+.header-navigation .current {
+    color: var(--hover--color);
+
+}
+
+.hero-btn,
+.hero-portfolio-btn {
+    cursor: pointer
+}
