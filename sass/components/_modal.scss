@@ -20,7 +20,7 @@
     transform: translate(-50%, -50%);
 }
 
-.modal-close__btn {
+.modal__close-btn {
     position: absolute;
     padding: 0;
     top: 8px;
@@ -39,9 +39,7 @@
         }
 }
 
-
-
-.modal-title {
+.modal__title {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 12px;
@@ -51,12 +49,12 @@
     color: var(--main--title);
 }
 
-.modal-field {
+.modal__field {
     margin-bottom: 10px;
     cursor: pointer;
 }
 
-.modal-input {
+.modal__input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -74,11 +72,11 @@
 
 
 
-.modal-input:hover+.input__icon {
+.modal_input:hover+.input__icon {
     fill: var(--hover--color);
 }
 
-.modal-input:focus+.input__icon {
+.modal_input:focus+.input__icon {
     fill: var(--hover--color);
 }
 
@@ -122,16 +120,13 @@
 }
 
 
-
-
-
-.input__icon-tick {
+.input-icon-tick {
     fill: transparent;
 }
 
-.modal-agreement__text {
+.agreement-text {
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.71px;
     letter-spacing: 0.03em;
     color: #757575;
     display: flex;
@@ -141,16 +136,16 @@
     cursor: pointer;
 }
 
-.modal-agreement__input:checked+.agreement__text span {
+.agreement:checked+.agreement-text span {
     background-color: var(--hover--color);
     border: none;
 }
 
-.modal-agreement__input:checked+.agreement__text .input__icon-tick {
+.agreement:checked+.agreement-text .input-icon-tick {
     fill: #FFFFFF;
 }
 
-.modal-agreement__text span {
+.agreement-text span {
     width: 16px;
     height: 15px;
     border: 2px solid #212121;

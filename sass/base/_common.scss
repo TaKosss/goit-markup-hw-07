@@ -11,12 +11,19 @@
     padding: 94px 0;
 }
 
-.header-navigation .current {
+.menu-list__link--current {
     color: var(--hover--color);
 
 }
 
+.section--no-padding-top {
+    padding-top: 0;
+}
+.section--other-background {
+    background-color: var(--team--background);
+}
+ 
 .hero-btn,
 .hero-portfolio-btn {
     cursor: pointer
-}
+}  

@@ -8,12 +8,15 @@
     color: var(--main--title);
 }
 
-.advantages__list {
+.advantages {
     display: flex;
 }
 
 .advantages__item {
     width: 270px;
+    &+& {
+            margin-left: 30px;
+        }
 }
 
 .advantages__icon-container {
@@ -30,9 +33,7 @@
     align-items: center;
 }
 
-.advantages__item+.advantages__item {
-    margin-left: 30px;
-}
+
 
 .advantages__text {
     font-size: 14px;

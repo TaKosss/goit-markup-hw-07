@@ -99,11 +99,10 @@
     overflow: hidden;
 }
 
-.hero-portfolio__item:hover .hero-portfolio__overley,
-.hero-portfolio__item:focus .hero-portfolio__overley {
+.hero-portfolio__link:hover .hero-portfolio__overley,
+.hero-portfolio__link:focus .hero-portfolio__overley {
     transform: translateY(0%);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 .hero-portfolio__overley {
